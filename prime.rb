@@ -1,5 +1,5 @@
 def prime?(num)
-  return false if prime < 2
-  return true if prime == 2
-  return !(2...prime).any?{|i| prime % i == 0}
+  return false if num < 2
+  return true if num == 2
+  return !(2...num).any?{|i| num % i == 0}
 end
